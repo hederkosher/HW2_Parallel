@@ -1,0 +1,31 @@
+Best submatrix found at position: (425, 871)
+Log sum of odd elements: 321.641185
+Execution time: 0.508701 seconds
+
+Parameters: N=1000, M=1000, K=10
+Number of OpenMP threads: 4
+Matrix (1000x1000):
+  75   31   95  -24  -69  ...
+  69   38   45  -95   79  ...
+ -25   54  -34   61  -21  ...
+  53  -65  -61   48  -65  ...
+  32  -75  -75  -76   48  ...
+...
+
+Best submatrix found at position: (425, 871)
+Log sum of odd elements: 321.641185
+Execution time: 0.380326 seconds
+
+
+Best submatrix found at position: (425, 871)
+Log sum of odd elements: 321.641185
+Execution time: 0.336763 seconds
+
+
+
+
+nexpected
+omputing/ParallelHW/HW2_Parallel$ mpiexec -np 2 ./hw2 
+./hw2: 1: Syntax error: "(" unexpected
+./hw2: 1: Syntax error: "(" unexpected
+(base) linuxu@ParallelC25i-23:~/tsclient/Programming/Parallel Computing/ParallelHW/HW2_Parallel$ 
